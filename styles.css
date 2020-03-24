@@ -1,0 +1,226 @@
+@charset "UTF-8";
+.effect-fade {
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+}
+
+.effect-fade.effect-scroll {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+* {
+  margin: 0;
+  font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "HiraKakuProN-W3", "Hiragino Kaku Gothic Pro", "NanumGothic", "Malgun Gothic", sans-serif;
+}
+
+body {
+  height: 2000px;
+}
+
+body .header-top {
+  height: 70px;
+  background: #50c850;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  line-height: 70px;
+  letter-spacing: 2px;
+  margin-bottom: 70px;
+}
+
+body .container {
+  background: #ebfeeb;
+}
+
+body .container .row .header-wrapper {
+  padding: 0;
+}
+
+body .container .row .header-wrapper .top-photo {
+  margin: 70px 0 55px 0;
+  border-radius: 10px;
+}
+
+body .container .row .header-text {
+  line-height: 33px;
+  background: white;
+  border-radius: 10px;
+  border: 2px dotted #dbdbdb;
+}
+
+body .container .row .header-text .text {
+  padding: 30px;
+}
+
+body .container .row .header-text .text .fas {
+  color: #32c832;
+}
+
+body .container .row .header-text .text h4 {
+  border-bottom: 1px solid gray;
+  padding: 0 0 15px 0;
+}
+
+body .container .row .header-text .text p {
+  margin: 28px 0 0 0;
+}
+
+body .container .row .header-text .text .span {
+  color: #32c832;
+  font-size: 20px;
+}
+
+body .container .row .text-wrapper h5 {
+  text-align: center;
+}
+
+body .container .row .text-wrapper .row .center {
+  text-align: center;
+}
+
+body .container .row .text-wrapper .row .center .text-photo {
+  border-radius: 50%;
+  padding: 20px 0;
+}
+
+body .container .row .text-wrapper .row .center .fas {
+  color: #32c832;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  body .container .form {
+    display: none;
+  }
+}
+
+body .container .form {
+  text-align: center;
+  margin: 0;
+  color: #616161;
+}
+
+body .container .form form {
+  border: 3px dotted #dbdbdb;
+  padding-top: 40px;
+  background: white;
+  border-radius: 10px;
+}
+
+body .container .form form .row .h .time {
+  border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+body .container .form form .row .h .m .minute {
+  border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+body .container .form form .submit {
+  margin: 30px 0;
+  color: white;
+  border-radius: 5px;
+  width: 65%;
+  background: #50c850;
+  line-height: 35px;
+}
+
+@media screen and (min-width: 991px) {
+  body .container .form2 {
+    display: none;
+  }
+}
+
+body .container .form2 {
+  text-align: center;
+  margin: 0;
+  color: #8b8b8b;
+}
+
+body .container .form2 form {
+  border: 3px dotted #dbdbdb;
+  padding-top: 40px;
+  background: white;
+  border-radius: 10px;
+}
+
+body .container .form2 form .row .h .time {
+  border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+}
+
+body .container .form2 form .row .m .minute {
+  border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+}
+
+body .container .form2 form .button {
+  margin: 20px 0;
+  height: 33px;
+  width: 46%;
+  font-size: 14.5px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  background: #50c850;
+  color: white;
+  border-bottom: solid 3px #5a5a5a;
+  border-radius: 10px;
+  outline: none;
+}
+
+body .container .form2 form .button:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  border-bottom: none;
+  outline: none;
+  border-top: none;
+}
+
+body .footer-top .container .row .table tbody tr td .fas {
+  color: #32c832;
+}
+
+body .footer-top .container .row .table tbody tr td .button {
+  height: 33px;
+  width: 80px;
+  font-size: 14.5px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  background: #d0d0d0;
+  color: #434343;
+  border-bottom: solid 3px #5a5a5a;
+  border-radius: 10px;
+  outline: none;
+}
+
+body .footer-top .container .row .table tbody tr td .button:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  border-bottom: none;
+  outline: none;
+  border-top: none;
+}
+
+body footer {
+  margin-top: 70px;
+}
+
+body footer .footer {
+  text-align: center;
+  background: #50c850;
+  color: white;
+  line-height: 70px;
+}
+/*# sourceMappingURL=styles.css.map */
